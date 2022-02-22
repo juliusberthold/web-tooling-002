@@ -1,0 +1,28 @@
+{
+  "name": "harbour-space-002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "npm": "^6.8",
+    "node": "^17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Web Tooling"
+  },
+  "author": "Julius",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-recommended": "^4.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^4.3.8",
+    "prettier": "^2.5.1"
+  }
+}
